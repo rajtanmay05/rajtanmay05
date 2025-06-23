@@ -2,11 +2,11 @@
 ### 👋 Hi there, I'm Raj Tanmay Mahalik
 
 🚀 I’m a passionate Computer Science student from Bhubaneswar, India.  
-🎯 Goal: Become a Software Engineer at top tech companies (Google, Microsoft, NVIDIA).  
+🎯 Goal: Become a Software Engineer at top tech companies. 
 🌱 Currently learning: C++, DSA, Git & GitHub, Web Dev  
 📚 Education: Aryan Institute of Engineering and Technology  
 💬 Ask me about tech, coding, or productivity  
-📫 How to reach me: rajtanmay05@gmail.com  
+📫 How to reach me: rajtanmaymahallik1@gmail.com  
 🛠️ Skills: C++, Git, GitHub, HTML, CSS (learning...)
 
 ---
