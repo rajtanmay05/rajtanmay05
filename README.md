@@ -1,16 +1,22 @@
-## Hi there 👋
 
-<!--
-**rajtanmay05/rajtanmay05** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 👋 Hi there, I'm Raj Tanmay Mahalik
 
-Here are some ideas to get you started:
+🚀 I’m a passionate Computer Science student from Bhubaneswar, India.  
+🎯 Goal: Become a Software Engineer at top tech companies (Google, Microsoft, NVIDIA).  
+🌱 Currently learning: C++, DSA, Git & GitHub, Web Dev  
+📚 Education: Aryan Institute of Engineering and Technology  
+💬 Ask me about tech, coding, or productivity  
+📫 How to reach me: rajtanmay05@gmail.com  
+🛠️ Skills: C++, Git, GitHub, HTML, CSS (learning...)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 🌟 My GitHub Stats:
+
+![Raj's GitHub Stats](https://github-readme-stats.vercel.app/api?username=rajtanmay05&show_icons=true&theme=radical)
+
+### 📈 Most Used Languages:
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rajtanmay05&layout=compact&theme=radical)
+
+---
