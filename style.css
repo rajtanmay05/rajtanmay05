@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #000;
+  height: 100vh;
+  font-family: 'Dancing Script', cursive;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+.scene {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.cake-stand {
+  position: relative;
+  bottom: 0;
+  width: 120px;
+  height: auto;
+  z-index: 2;
+}
+.slice {
+  width: 100px;
+  height: 40px;
+  background: #f08080;
+  border-radius: 10px;
+  margin: 3px auto;
+  opacity: 0;
+  position: relative;
+  transform: translateY(-150px);
+  transition: all 0.5s ease;
+}
+.candle {
+  width: 10px;
+  height: 30px;
+  background: #fff;
+  border-radius: 3px;
+  margin: 0 auto;
+  position: relative;
+  animation: dropCandle 0.6s ease forwards;
+}
+.flame {
+  width: 10px;
+  height: 10px;
+  background: #ff69b4;
+  border-radius: 50%;
+  position: absolute;
+  top: -15px;
+  left: 0;
+  animation: flicker 0.3s infinite alternate;
+  box-shadow: 0 0 15px #ff69b4;
+}
+@keyframes flicker {
+  from { transform: scale(1); opacity: 1; }
+  to { transform: scale(1.2); opacity: 0.8; }
+}
+.balloons, .hearts, .sparkles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.birthday-text {
+  font-size: 2.8em;
+  color: #fff;
+  text-shadow: 2px 2px 5px #ff69b4;
+  opacity: 0;
+  animation: showText 1s forwards 5s;
+}
+.caption {
+  font-size: 1.8em;
+  color: #fff;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 4px #ff69b4;
+  opacity: 0;
+  animation: showText 1s forwards 6s;
+}
+@keyframes showText {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes floatUp {
+  0% { transform: translateY(0); opacity: 0.5; }
+  50% { opacity: 1; }
+  100% { transform: translateY(-120vh); opacity: 0; }
+}
+@keyframes floatHeart {
+  0% { transform: translateY(0) scale(1); opacity: 1; }
+  100% { transform: translateY(-100vh) scale(1.2); opacity: 0; }
+}
+@keyframes sparkle {
+  0% { opacity: 0; transform: scale(0); }
+  50% { opacity: 1; transform: scale(1.5); }
+  100% { opacity: 0; transform: scale(0); }
+}
+#playBtn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  background: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  z-index: 9999;
+  cursor: pointer;
+  box-shadow: 0 0 10px #ff69b4;
+}
+#playBtn:hover {
+  background: #ff85c1;
+}
